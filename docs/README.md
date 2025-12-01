@@ -4,7 +4,7 @@ This directory contains screenshots for the README.md documentation.
 
 ## Required Screenshots
 
-Please add the following screenshot files to showcase the Calendar component:
+Please add the following screenshot files to showcase the Calvista component:
 
 - `Month_View.png` - Default month view with events
 - `Week_View.png` - Week view layout with time slots

@@ -1,4 +1,4 @@
-<h1 align="center">📅 CalendarView — Interactive React Calendar Component</h1>
+<h1 align="center">📅 Calvista — Interactive React Calendar Component</h1>
 
 <p align="center">
   🚀 A fully interactive, accessible calendar component built with React, TypeScript, and Tailwind CSS. Features month and week views, event management, and comprehensive accessibility support for <b>modern web applications</b> and SaaS platforms.
@@ -24,7 +24,7 @@ Modern web applications need robust calendar components that handle complex even
 ---
 
 ## 💡 Our Solution
-CalendarView is a production-ready React calendar component built to:
+Calvista is a production-ready React calendar component built to:
 
 - 📊 Handle 500+ events with optimized performance and efficient rendering
 - 🎯 Provide intuitive event management with create, edit, and delete functionality
@@ -101,7 +101,7 @@ CalendarView is a production-ready React calendar component built to:
 ## 📁 Project Directory Structure
 
 ```
-CalendarView/
+Calvista/
 ├── 📂 .storybook/                  # 📚 Storybook configuration
 │   ├── 📄 main.ts                  # 🔧 Main Storybook config
 │   └── 📄 preview.ts               # 🎨 Preview configuration
@@ -135,6 +135,9 @@ CalendarView/
 │   ├── 📄 Week_View.png            # 📅 Week view layout
 │   └── 📄 README.md                # 📖 Screenshots guide
 ├── 📂 storybook-static/            # 📦 Built Storybook files
+├── 📄 netlify.toml                 # 🌐 Netlify deployment configuration
+├── 📄 _redirects                   # 🔄 Netlify SPA routing rules
+├── 📄 .nvmrc                       # 📦 Node.js version specification
 ├── 📄 package.json                 # 📦 Node.js dependencies
 ├── 📄 vite.config.ts               # ⚡ Vite configuration
 ├── 📄 tailwind.config.js           # 🎨 Tailwind CSS configuration
@@ -177,7 +180,7 @@ CalendarView/
 
    ```bash
    git clone https://github.com/AbhishekGiri04/CalendarView.git
-   cd CalendarView
+   cd Calvista
    npm install
    ```
 
@@ -198,6 +201,25 @@ CalendarView/
    Dev Server: http://localhost:5173
    ```
 
+### 🌐 Live Demo
+
+**🚀 Deployed on Netlify**: [https://calvista.netlify.app](https://calvista.netlify.app)
+
+### 📦 Netlify Deployment
+
+**One-Click Deploy:**
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/AbhishekGiri04/CalendarView)
+
+**Manual Deploy:**
+```bash
+# Build the project
+npm run build
+
+# Deploy dist/ folder to Netlify
+# Or connect GitHub repo for auto-deployment
+```
+
 ### 🔧 Available Scripts
 
 ```bash
@@ -209,6 +231,10 @@ npm run storybook    # Start Storybook documentation
 npm run build        # Build for production
 npm run build-storybook # Build Storybook static files
 npm run preview      # Preview production build
+
+# Netlify Deployment
+npm run netlify-build # Netlify production build
+npm run netlify-dev   # Netlify development server
 
 # Code Quality
 npm run lint         # Run ESLint checks
@@ -307,7 +333,8 @@ npm run build
 - **WCAG 2.1 AA** — Full accessibility compliance with keyboard navigation support
 - **Mobile First** — Responsive design tested across all device breakpoints
 - **TypeScript Strict** — 100% type coverage with comprehensive type definitions
-- **Zero Dependencies** — Minimal bundle size with only essential dependencies
+- **Netlify Ready** — Optimized for instant deployment with CDN distribution
+- **<2MB Bundle** — Minimal bundle size with tree-shaking and code splitting
 
 <br>
 
@@ -332,7 +359,7 @@ npm run build
 
 ## 📞 Help & Contact  
 
-> 💬 *Got questions or need assistance with CalendarView Component?*  
+> 💬 *Got questions or need assistance with Calvista Component?*  
 > We're here to help with integration and customization!
 
 <div align="center">
@@ -361,6 +388,6 @@ npm run build
 
 <div align="center">
 
-**© 2025 CalendarView - Interactive React Calendar Component. All Rights Reserved.**
+**© 2025 Calvista - Interactive React Calendar Component. All Rights Reserved.**
 
 </div>
