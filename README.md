@@ -117,9 +117,9 @@ Calvista/
 │   │   │   ├── 📄 CalendarView.stories.tsx # 📖 Storybook stories
 │   │   │   └── 📄 CalendarView.types.ts # 🔤 TypeScript definitions
 │   │   └── 📂 primitives/          # 🔧 Reusable UI primitives
-│   │       ├── 📄 Button.tsx       # 🔘 Button component
+│   │       ├── 📄 Button.tsx       # 🔘 Enhanced button component
 │   │       ├── 📄 Modal.tsx        # 🪟 Modal component
-│   │       └── 📄 Select.tsx       # 📋 Select dropdown
+│   │       └── 📄 Select.tsx       # 📋 Modern select dropdown
 │   ├── 📂 hooks/                   # 🎣 Custom React hooks
 │   │   ├── 📄 useCalendar.ts       # 📅 Calendar state management
 │   │   └── 📄 useEventManager.ts   # 📝 Event management logic
@@ -127,27 +127,28 @@ Calvista/
 │   │   ├── 📄 date.utils.ts        # 📅 Date manipulation helpers
 │   │   └── 📄 event.utils.ts       # 📝 Event processing utilities
 │   ├── 📂 styles/                  # 🎨 Global styles
-│   │   └── 📄 globals.css          # 🌐 Global CSS and Tailwind imports
+│   │   └── 📄 globals.css          # 🌐 Modern CSS with glass effects
 │   └── 📄 main.tsx                 # 🚀 Application entry point
-├── 📂 docs/                        # 📸 Screenshots and documentation
-│   ├── 📄 Default_View.png         # 📊 Default calendar view
-│   ├── 📄 Events_View.png          # 📝 Events management view
-│   ├── 📄 Week_View.png            # 📅 Week view layout
-│   └── 📄 README.md                # 📖 Screenshots guide
-├── 📂 storybook-static/            # 📦 Built Storybook files
-├── 📄 netlify.toml                 # 🌐 Netlify deployment configuration
-├── 📄 _redirects                   # 🔄 Netlify SPA routing rules
-├── 📄 .nvmrc                       # 📦 Node.js version specification
-├── 📄 package.json                 # 📦 Node.js dependencies
-├── 📄 vite.config.ts               # ⚡ Vite configuration
-├── 📄 tailwind.config.js           # 🎨 Tailwind CSS configuration
+├── 📂 docs/                        # 📸 Updated screenshots
+│   ├── 📄 Default_View.png         # 📊 Modern calendar view
+│   ├── 📄 Events_View.png          # 📝 Enhanced events interface
+│   └── 📄 Week_View.png            # 📅 Professional week layout
+├── 📂 storybook-static/            # 📦 Built Storybook documentation
+│   ├── 📂 assets/                  # 🎯 Compiled assets
+│   ├── 📂 sb-addons/              # 🔌 Storybook addons
+│   ├── 📂 sb-manager/             # 📋 Storybook manager
+│   └── 📂 sb-preview/             # 👀 Preview components
+├── 📄 netlify.toml                 # 🌐 Netlify deployment config
+├── 📄 _redirects                   # 🔄 SPA routing rules
+├── 📄 .nvmrc                       # 📦 Node.js version (18+)
+├── 📄 package.json                 # 📦 Dependencies & scripts
+├── 📄 vite.config.ts               # ⚡ Vite build configuration
+├── 📄 tailwind.config.js           # 🎨 Tailwind CSS setup
 ├── 📄 tsconfig.json                # 🔧 TypeScript configuration
-├── 📄 tsconfig.node.json           # 🔧 Node TypeScript config
-├── 📄 postcss.config.js            # 🎨 PostCSS configuration
-├── 📄 .eslintrc.cjs                # 📏 ESLint rules
-├── 📄 .gitignore                   # 🚫 Git ignore rules
+├── 📄 postcss.config.js            # 🎨 PostCSS processing
+├── 📄 .eslintrc.cjs                # 📏 Code quality rules
 ├── 📄 index.html                   # 🌐 HTML entry point
-└── 📄 README.md                    # 📖 Project documentation
+└── 📄 README.md                    # 📖 Complete documentation
 ```
 <br>
 
@@ -155,9 +156,9 @@ Calvista/
 
 | 📍 Component / Feature       | 📸 Screenshot                                              |
 |:----------------------------|:-----------------------------------------------------------|
-| Default Calendar View       | ![Default View](docs/Default_View.png)                    |
-| Week View Layout            | ![Week View](docs/Week_View.png)                          |
-| Events Management           | ![Events View](docs/Events_View.png)                      |
+| Modern Calendar Interface   | ![Default View](docs/Default_View.png)                    |
+| Professional Week Layout    | ![Week View](docs/Week_View.png)                          |
+| Enhanced Events Management  | ![Events View](docs/Events_View.png)                      |
 
 <br>
 
@@ -333,6 +334,7 @@ npm run build
 - **WCAG 2.1 AA** — Full accessibility compliance with keyboard navigation support
 - **Mobile First** — Responsive design tested across all device breakpoints
 - **TypeScript Strict** — 100% type coverage with comprehensive type definitions
+- **Modern UI/UX** — Glass morphism effects with professional design system
 - **Netlify Ready** — Optimized for instant deployment with CDN distribution
 - **<2MB Bundle** — Minimal bundle size with tree-shaking and code splitting
 

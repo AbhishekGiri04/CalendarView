@@ -23,13 +23,13 @@ const MonthViewComponent: React.FC<MonthViewProps> = ({
   const weekDays = React.useMemo(() => ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'], []);
 
   return (
-    <div className="bg-white rounded-lg border border-neutral-200 overflow-hidden">
+    <div className="glass-effect rounded-2xl border border-white/20 overflow-hidden shadow-2xl shadow-slate-900/10">
       {/* Week day headers */}
-      <div className="grid grid-cols-7 border-b border-neutral-200">
+      <div className="grid grid-cols-7 border-b border-slate-200/50 bg-gradient-to-r from-slate-50/80 to-blue-50/40">
         {weekDays.map((day) => (
           <div
             key={day}
-            className="p-2 lg:p-3 text-center text-xs lg:text-sm font-medium text-neutral-700 bg-neutral-50"
+            className="p-3 lg:p-4 text-center text-sm lg:text-base font-semibold text-slate-700 backdrop-blur-sm"
           >
             <span className="hidden sm:inline">{day}</span>
             <span className="sm:hidden">{day.charAt(0)}</span>
@@ -38,7 +38,7 @@ const MonthViewComponent: React.FC<MonthViewProps> = ({
       </div>
 
       {/* Calendar grid */}
-      <div className="grid grid-cols-7">
+      <div className="grid grid-cols-7 bg-white/40 backdrop-blur-sm">
         {calendarDays.map(date => {
           const dateEvents = getEventsForDate(events, date);
           const isToday = isTodayUtil(date);
