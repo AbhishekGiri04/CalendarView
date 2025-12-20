@@ -103,11 +103,13 @@ export const CalendarView: React.FC<CalendarViewProps> = ({
   const handleMonthChange = useCallback((month: string) => {
     const newDate = new Date(currentYear, parseInt(month), 1);
     selectDate(newDate);
+    setShowDatePicker(false);
   }, [currentYear, selectDate]);
   
   const handleYearChange = useCallback((year: string) => {
     const newDate = new Date(parseInt(year), currentMonth, 1);
     selectDate(newDate);
+    setShowDatePicker(false);
   }, [currentMonth, selectDate]);
 
   const displayTitle = view === 'month' ? getMonthName(currentDate) : getWeekRange(currentDate);

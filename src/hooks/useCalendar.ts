@@ -50,6 +50,7 @@ export const useCalendar = (initialDate: Date = new Date(), initialView: ViewTyp
   const selectDate = useCallback((date: Date | null) => {
     setState(prev => ({
       ...prev,
+      currentDate: date || prev.currentDate,
       selectedDate: date,
     }));
   }, []);
