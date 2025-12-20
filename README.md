@@ -204,20 +204,20 @@ Calvista/
 
 ### 🌐 Live Demo
 
-**🚀 Deployed on Netlify**: [https://calvista.netlify.app](https://calvista.netlify.app)
+**🚀 Deployed on Vercel**: [https://calvista.vercel.app](https://calvista.vercel.app)
 
-### 📦 Netlify Deployment
+### 📦 Vercel Deployment
 
 **One-Click Deploy:**
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/AbhishekGiri04/CalendarView)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/AbhishekGiri04/CalendarView)
 
 **Manual Deploy:**
 ```bash
 # Build the project
 npm run build
 
-# Deploy dist/ folder to Netlify
+# Deploy dist/ folder to Vercel
 # Or connect GitHub repo for auto-deployment
 ```
 
@@ -232,10 +232,6 @@ npm run storybook    # Start Storybook documentation
 npm run build        # Build for production
 npm run build-storybook # Build Storybook static files
 npm run preview      # Preview production build
-
-# Netlify Deployment
-npm run netlify-build # Netlify production build
-npm run netlify-dev   # Netlify development server
 
 # Code Quality
 npm run lint         # Run ESLint checks
@@ -335,7 +331,7 @@ npm run build
 - **Mobile First** — Responsive design tested across all device breakpoints
 - **TypeScript Strict** — 100% type coverage with comprehensive type definitions
 - **Modern UI/UX** — Glass morphism effects with professional design system
-- **Netlify Ready** — Optimized for instant deployment with CDN distribution
+- **Vercel Ready** — Optimized for instant deployment with edge network
 - **<2MB Bundle** — Minimal bundle size with tree-shaking and code splitting
 
 <br>
