@@ -129,6 +129,8 @@ Calvista/
 │   ├── 📂 styles/                  # 🎨 Global styles
 │   │   └── 📄 globals.css          # 🌐 Modern CSS with glass effects
 │   └── 📄 main.tsx                 # 🚀 Application entry point
+├── 📂 public/                      # 🌐 Static assets
+│   └── 📄 favicon.png              # 🎯 Custom calendar favicon
 ├── 📂 docs/                        # 📸 Updated screenshots
 │   ├── 📄 Default_View.png         # 📊 Modern calendar view
 │   ├── 📄 Events_View.png          # 📝 Enhanced events interface
@@ -138,8 +140,7 @@ Calvista/
 │   ├── 📂 sb-addons/              # 🔌 Storybook addons
 │   ├── 📂 sb-manager/             # 📋 Storybook manager
 │   └── 📂 sb-preview/             # 👀 Preview components
-├── 📄 netlify.toml                 # 🌐 Netlify deployment config
-├── 📄 _redirects                   # 🔄 SPA routing rules
+├── 📄 vercel.json                  # ⚡ Vercel deployment config
 ├── 📄 .nvmrc                       # 📦 Node.js version (18+)
 ├── 📄 package.json                 # 📦 Dependencies & scripts
 ├── 📄 vite.config.ts               # ⚡ Vite build configuration
