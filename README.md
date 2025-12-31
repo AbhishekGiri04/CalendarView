@@ -149,6 +149,7 @@ Calvista/
 ├── 📄 postcss.config.js            # 🎨 PostCSS processing
 ├── 📄 .eslintrc.cjs                # 📏 Code quality rules
 ├── 📄 index.html                   # 🌐 HTML entry point
+├── 📄 LICENSE                      # 📄 MIT License
 └── 📄 README.md                    # 📖 Complete documentation
 ```
 <br>
@@ -375,6 +376,12 @@ npm run build
 </a>
 
 <br/>
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
